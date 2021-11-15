@@ -12,7 +12,6 @@ class Students(models.Model):
     enroll_date = models.DateField(auto_now=True)
     graduate_date = models.DateField(null=True, blank=True)
 
-
     VACCINATION_STATUS = (
         ('Unvaccinated', 'Unvaccinated'),
         ('First Dose', 'First Dose'),
